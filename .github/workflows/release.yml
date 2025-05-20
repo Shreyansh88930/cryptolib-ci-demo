@@ -13,3 +13,5 @@ jobs:
 
     - name: Auto-tag release
       uses: Klemensas/action-autotag@stable
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
